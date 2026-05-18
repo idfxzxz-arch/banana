@@ -26,14 +26,14 @@ function Tentang() {
           <h3>Opsi Layanan</h3>
           <ul>
             {services.map((item) => (
-              <li key={item}>✅ {item}</li>
+              <li key={item}> {item}</li>
             ))}
           </ul>
 
           <h3>Fasilitas</h3>
           <ul>
             {facilities.map((item) => (
-              <li key={item}>✅ {item}</li>
+              <li key={item}> {item}</li>
             ))}
           </ul>
         </div>

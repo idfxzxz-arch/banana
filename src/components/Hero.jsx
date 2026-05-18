@@ -52,9 +52,9 @@ function Hero() {
           <p>{brand.tagline}</p>
 
           <div className="hero-mini-info">
-            <span>✅ Pusat oleh-oleh lengkap</span>
-            <span>✅ Resto Godong Gedang</span>
-            <span>✅ Paket prasmanan & reservasi</span>
+            <span> Pusat oleh-oleh lengkap</span>
+            <span> Resto Godong Gedang</span>
+            <span> Paket prasmanan & reservasi</span>
           </div>
         </div>
       </div>
