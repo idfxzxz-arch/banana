@@ -26,14 +26,14 @@ function Keunggulan() {
           <div className="small-info-card">
             <h3>Pembayaran</h3>
             {payments.map((item) => (
-              <p key={item}>✅ {item}</p>
+              <p key={item}> {item}</p>
             ))}
           </div>
 
           <div className="small-info-card">
             <h3>Parkir</h3>
             {parking.map((item) => (
-              <p key={item}>✅ {item}</p>
+              <p key={item}> {item}</p>
             ))}
           </div>
         </div>
