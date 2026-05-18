@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://banana-three-omega.vercel.app/sitemap.xml
