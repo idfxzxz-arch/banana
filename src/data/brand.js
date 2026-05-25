@@ -74,6 +74,7 @@ export const flavors = [
     icon: "🍪",
   },
 ];
+<<<<<<< HEAD
 // ============================================================
 // olehOlehProducts — DATA LENGKAP
 // Sumber: brand.js (existing) + Katalog_Produk_2026.docx
@@ -173,6 +174,69 @@ export const olehOlehProducts = [
       { name: "Taro Pie", img: "images/Pastry & Pie/Taro Pie.png" },
       { name: "Pie Jambu", img: "images/Pastry & Pie/Pie Jambu.png" },
       { name: "Pie Ubi", img: "images/Pastry & Pie/Pie Ubi.png" },
+=======
+
+export const olehOlehProducts = [
+  {
+    category: "Produk Krezzz",
+    items: [
+      { name: "BananaKrezzz", price: "Kecil Rp26.000 / Besar Rp39.500" },
+      { name: "DurianKrezzz", price: "Kecil Rp26.000 / Besar Rp39.500" },
+      { name: "UbiKrezzz", price: "Kecil Rp26.000 / Besar Rp39.500" },
+      { name: "SukariKrezzz", price: "Rp26.000" },
+    ],
+  },
+  {
+    category: "Produk Bolu & Lapis Kukus",
+    items: [
+      { name: "Bolu Coklat", price: "Rp26.000" },
+      { name: "Bolu Red Velvet", price: "Rp26.000" },
+      { name: "Bolu Vanila", price: "Rp26.000" },
+      { name: "Banana Kukus", price: "Rp26.000" },
+      { name: "Lapis Kukus Jamtelu", price: "Rp26.000" },
+      { name: "Lapis Kukus Pisang Bawen", price: "Rp26.000" },
+      { name: "Pandan Ketan", price: "Rp36.000" },
+    ],
+  },
+  {
+    category: "Cookies & Snack",
+    items: [
+      { name: "Cookies Bites Original", price: "Rp29.000" },
+      { name: "Cookies Bites Chocolate", price: "Rp29.000" },
+      { name: "Cookies Bites Greentea", price: "Rp29.000" },
+      { name: "Cookies Bites Red Velvet", price: "Rp29.000" },
+      { name: "Puff Cookies", price: "Rp26.000" },
+      { name: "Soft Cookies", price: "Rp35.000" },
+      { name: "Banana Cookies", price: "Rp26.000" },
+      { name: "Almond Crispy", price: "Rp39.000" },
+    ],
+  },
+  {
+    category: "Keripik & Camilan",
+    items: [
+      { name: "Chili Bana", price: "Rp21.000" },
+      { name: "Tempe Krezzz", price: "Rp21.000" },
+      { name: "Pisang Genit", price: "Rp29.000" },
+      { name: "Pillow Bite", price: "Rp28.000" },
+      { name: "Singkong Mentega", price: "Rp21.000" },
+    ],
+  },
+  {
+    category: "Pastry & Pie",
+    items: [
+      { name: "Bolen Lilit Coklat", price: "Rp39.500" },
+      { name: "Bolen Lilit Durian", price: "Rp39.500" },
+      { name: "Bolen Lilit Mix", price: "Rp39.500" },
+      { name: "Bolen Lilit Ubi", price: "Rp35.000" },
+      { name: "Crolen", price: "Rp35.000" },
+      { name: "Strudel Pisang", price: "Rp39.500" },
+      { name: "Strudel Ubi", price: "Rp39.500" },
+      { name: "Strudel Mix", price: "Rp39.500" },
+      { name: "Pie Original", price: "Rp29.000" },
+      { name: "Cheese Pie", price: "Rp29.000" },
+      { name: "Chocolate Pie", price: "Rp29.000" },
+      { name: "Taro Pie", price: "Rp29.000" },
+>>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
     ],
   },
 ];

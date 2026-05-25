@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { olehOlehProducts } from "../data/brand";
 
@@ -10,6 +11,11 @@ function OlehOleh() {
     return "oleh-cat-" + category.replace(/[^a-zA-Z]/g, "");
   };
 
+=======
+import { olehOlehProducts } from "../data/brand";
+
+function OlehOleh() {
+>>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
   return (
     <section id="oleh-oleh" className="section oleh">
       <div className="container">
@@ -22,6 +28,7 @@ function OlehOleh() {
           </p>
         </div>
 
+<<<<<<< HEAD
         {/* TAB NAVBAR */}
         <div className="oleh-tabs">
           {olehOlehProducts.map((cat, i) => (
@@ -50,6 +57,22 @@ function OlehOleh() {
                 <span className="oleh-product-name">{item.name}</span>
               </div>
             </div>
+=======
+        <div className="menu-category-grid">
+          {olehOlehProducts.map((category) => (
+            <article className="menu-category-card" key={category.category}>
+              <h3>{category.category}</h3>
+
+              <div className="menu-list">
+                {category.items.map((item) => (
+                  <div className="menu-row" key={item.name}>
+                    <span>{item.name}</span>
+                    <strong>{item.price}</strong>
+                  </div>
+                ))}
+              </div>
+            </article>
+>>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
           ))}
         </div>
       </div>
