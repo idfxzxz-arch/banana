@@ -835,15 +835,12 @@ section {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 @media (max-width: 600px) {
   .resto {
     overflow: visible;
   }
 }
 
-=======
->>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
 .resto::before {
   content: "";
   position: absolute;
@@ -1105,7 +1102,6 @@ section {
   .nav-link.active-link::before {
     display: none;
   }
-<<<<<<< HEAD
 }
 /* =========================
    OLEH-OLEH REDESIGN
@@ -1561,6 +1557,4 @@ section {
     max-width: 200px;
     flex-shrink: 0;
   }
-=======
->>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
 }

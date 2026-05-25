@@ -1,6 +1,5 @@
 import { restoPackages } from "../data/brand";
 
-<<<<<<< HEAD
 const menuImages = {
   "Rp23.000": {
     "Menu A": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80",
@@ -34,8 +33,6 @@ const menuImages = {
   },
 };
 
-=======
->>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
 function RestoMenu() {
   return (
     <section id="resto" className="section resto">
@@ -49,7 +46,6 @@ function RestoMenu() {
           </p>
         </div>
 
-<<<<<<< HEAD
         <div className="paket-rows">
           {restoPackages.map((paket) => (
             <div className="paket-row" key={paket.price}>
@@ -85,26 +81,6 @@ function RestoMenu() {
                 ))}
               </div>
             </div>
-=======
-        <div className="package-grid">
-          {restoPackages.map((paket) => (
-            <article className="package-card" key={paket.price}>
-              <div className="package-price">{paket.price}</div>
-
-              <div className="package-menu-grid">
-                {paket.menus.map((menu) => (
-                  <div className="package-menu" key={menu.name}>
-                    <h3>{menu.name}</h3>
-                    <ul>
-                      {menu.items.map((item) => (
-                        <li key={item}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </article>
->>>>>>> f11fc328edc531cae16c7d7481047e5f9abfc3f2
           ))}
         </div>
       </div>
